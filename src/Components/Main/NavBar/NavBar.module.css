@@ -1,0 +1,15 @@
+.sidebar{
+    width: 200px;
+    background-color: yellow;
+    text-align: center;
+}
+
+.sidebar_navigation{
+    margin: 30px 0 0 0;
+}
+
+.sidebar_navigation__menu{}
+
+.navigation_menu__item:not(:first-child){
+    margin: 15px 0 0 0;
+}

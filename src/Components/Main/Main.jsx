@@ -1,5 +1,6 @@
-import NavBar from "./NavBar";
-import Profile from "./Profile";
+import Profile from './Profile/Profile';
+import NavBar from './NavBar/NavBar';
+import './Main.module.css';
 
 const Main = () => {
     return(
