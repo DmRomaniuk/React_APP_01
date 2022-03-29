@@ -4,7 +4,7 @@ import UserInfo from "./UserInfo/UserInfo";
 
 const Profile = () => {
     return(
-        <div className={styles.content}>
+        <div>
             <div className={styles.content_info}>
                 <UserInfo/>
                 <MyPosts/>

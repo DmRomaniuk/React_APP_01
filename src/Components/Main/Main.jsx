@@ -1,12 +1,16 @@
 import Profile from './Profile/Profile';
 import NavBar from './NavBar/NavBar';
-import './Main.module.css';
+import styles from './Main.module.css';
+import Dialogs from "./Dialogs/Dialogs";
 
 const Main = () => {
     return(
         <main>
             <NavBar/>
-            <Profile/>
+            <div className={styles.content}>
+                <Profile/>
+                {/*<Dialogs/>*/}
+            </div>
         </main>
     )
 }

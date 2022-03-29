@@ -9,6 +9,7 @@ const App = () => {
       <div className='container'>
         <Header/>
         <Main/>
+          {/*<Footer/>*/}
       </div>
     </div>
   );

@@ -3,12 +3,18 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Arial Black";
+  font-size: 15px;
+}
+
+.App{
+  margin: 0 10px 0 10px;
 }
 
 .container{
   max-width: 1300px;
-  height: 500px;
-  background-color: cornflowerblue;
+  min-height: 500px;
   margin: 0 auto;
 }
 
