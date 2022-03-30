@@ -13,12 +13,19 @@
     justify-content: space-between;
 }
 
-.sidebar_navigation__menu{}
-
-.navigation_menu__item:not(:first-child){
+.menu__item:not(:first-child){
     margin: 15px 0 0 0;
 }
 
-.navigation_menu__settings{}
 
-.settings_menu__item{}
+.menu__item a:focus{
+   color: red;
+}
+
+
+
+
+
+
+
+
